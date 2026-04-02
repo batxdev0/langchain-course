@@ -35,7 +35,7 @@ agent = create_agent(model=llm,tools=tools)
 
 def main():
     print("Hello World from langchain-course")
-    result = agent.invoke({"messages":HumanMessage(content="Search for 3 job postings for an ai engineer using langchain on linkedln and list their detials")})
+    result = agent.invoke({"messages":HumanMessage(content="Search for 3 job postings for an ai engineer using langchain on linkedln and list their")})
     print(result)
 
 
